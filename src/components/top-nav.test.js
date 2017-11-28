@@ -1,10 +1,10 @@
 import React from 'react';
 import {shallow, mount} from 'enzyme';
 
-import GuessList from './guess-list.js';
+import TopNav from './top-nav';
 
-describe('<GuessList />', () => {
+describe('<TopNav />', () => {
     it("Renders without crashing", () => {
-        shallow(<GuessList />);
+        shallow(<TopNav />);
     });
 })
