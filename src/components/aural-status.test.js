@@ -16,4 +16,4 @@ describe('<AuralStatus />', () => {
       let wrapper = shallow(<AuralStatus auralStatus={TEST_STATUS} />);
       expect(wrapper.contains(TEST_STATUS)).toEqual(true);
     });
-  });
+});
